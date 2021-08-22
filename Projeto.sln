@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{77247F64-1CF8-4E2A-BB26-E8445021D2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{77247F64-1CF8-4E2A-BB26-E8445021D2B3}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7A14FCFA-0E12-4CB7-A2F7-1304E770DA5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Basket.API\Basket.API.csproj", "{4E14D90F-6435-4E03-91AB-DC822CA46EC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Basket.API\Basket.API.csproj", "{4E14D90F-6435-4E03-91AB-DC822CA46EC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Discount.API\Discount.API.csproj", "{BD419FD9-42A8-4D43-AADC-0186E87408F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Discount.API\Discount.API.csproj", "{BD419FD9-42A8-4D43-AADC-0186E87408F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Discount.Grpc\Discount.Grpc.csproj", "{B16B418B-DAA9-486B-A9B4-6F1FBE1DDE26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BD419FD9-42A8-4D43-AADC-0186E87408F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD419FD9-42A8-4D43-AADC-0186E87408F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD419FD9-42A8-4D43-AADC-0186E87408F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16B418B-DAA9-486B-A9B4-6F1FBE1DDE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16B418B-DAA9-486B-A9B4-6F1FBE1DDE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16B418B-DAA9-486B-A9B4-6F1FBE1DDE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16B418B-DAA9-486B-A9B4-6F1FBE1DDE26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
